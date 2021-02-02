@@ -14,22 +14,17 @@
 
 <body>
     <!-- Le reste du contenu -->
-    <div class="contain_card">
-        <div class="card">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">A vos scripts</h5>
+            <p class="card-text">Ecrivez le script de cesar en javascript. <br>Sachant que la variable "need2BeCrypted" contient le mot à crypter.</p>
             <div>
-                <div class="card-body">
-                    <h5 class="card-title">A vos scripts</h5>
-                    <p class="card-text">Ecrivez le script de cesar en javascript. <br>Sachant que la variable "need2BeCrypted" contient le mot à crypter.</p>
-                    <div>
-                        <!--<input type="text" id="cesar" required size="100">-->
-                        <textarea id="cesar"></textarea>
-                        <button type="button" class="btn btn-outline-dark" value="Testing" onclick="takeInput()">Tester</button>
-                    </div>
-                </div>
-                <div class="contain_valid"><p type="text" id="Result" required minlength="4" maxlength="1000" size="230"></p></div>
+                <input type="text" id="cesar" required size="100">
+                <!-- minlength="4" maxlength="1000" size="230" -->
+                <button type="button" class="btn btn-outline-dark" value="Testing" onclick="takeInput()">Tester</button>
             </div>
         </div>
-    </div>
+        <p type="text" id="Result" required minlength="4" maxlength="1000" size="230"></p>
 </body>
 
 </html>

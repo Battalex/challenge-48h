@@ -234,8 +234,6 @@ function endgame(txt) {
         score = score + 1;
         showwins();
         viesDiv.innerText = 'Bravo ! tu as trouvé le mot mystère.'
-        alert("Cette porte ne vous a pas permit d'avancer, cependant voici un indice : la bonne porte n'est pas verte");
-        window.location.href = "../rpg2.html";
     } else{ 
         boutonordi.innerText = "Rejouer ?";
         boutonordi.style.visibility = "visible";

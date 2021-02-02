@@ -7,16 +7,14 @@ function jeux() {
     nb_coup++;
 
     if (nombre < nb) {
-        document.getElementById('response_number').innerHTML = nombre + ' : C\'est plus';
+        alert("c'est plus");
         document.getElementById('solution').value = '';
     }
     if (nombre > nb) {
-        document.getElementById('response_number').innerHTML = nombre + ' : C\'est moins';
+        alert("c'est moins");
         document.getElementById('solution').value = '';
     }
-    if (nombre == nb) { //victoire du joueur
-        alert("Bravo, le nombre était " + nb + "\nTu as gagné en " + nb_coup + " coup(s)");
-        alert("Cette porte ne vous a pas permit d'avancer, cependant voici un indice : la bonne porte n'est pas verte");
-        window.location.href = "../rpg3.html";
+    if (nombre == nb) {
+        alert("Bravo , le nombre était " + nb + " Tu as gagné en " + nb_coup + " coup(s)");
     }
 }

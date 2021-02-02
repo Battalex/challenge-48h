@@ -4,14 +4,8 @@ function erreurl(numliste) {
 }
 
 function message(erreurs) {
-    if (erreurs == 0){
-        alert('Bravo, le code est juste !');
-        window.location.href = "../rpg2.html";
-    } 
-    else if (erreurs == 1) {
-        alert('Tu as fait une erreur !');
-        window.location.href = "../rpg2.html";
-    } 
+    if (erreurs == 0) alert('Bravo, le code est juste !');
+    else if (erreurs == 1) alert('Tu as fait une erreur !');
     else alert('Tu as fait ' + erreurs + ' erreurs !');
 }
 

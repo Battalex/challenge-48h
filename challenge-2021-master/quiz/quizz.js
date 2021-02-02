@@ -31,8 +31,6 @@ function Next(){
             }
             if(answer>=4){
                 win=true;
-                alert("Cette porte ne vous a pas permit d'avancer, cependant voici un indice : la bonne porte n'est pas bleue");
-                window.location.href = "../rpg2.html";
             }else{
                 number = 100;
                 document.getElementById(number).style.display = "flex";

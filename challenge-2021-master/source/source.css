@@ -1,66 +1,42 @@
 body {
     background-image: url("../images/bg5.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
-    color: white;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    background-size: 100% 100%;
 }
 
 button {
-    width: 8%;
-    margin-left: 46%;
-    margin-right: 46%;
-    margin-top: 50px;
-    letter-spacing: 1px;
-    padding: 0.25%;
-    border-radius: 3px;
-    border: solid 1px black;
-    background: rgba(100, 100, 100, 0.9);
-    color: white;
-    box-shadow: 1px 1px 10px black;
-    font-size: 1vw;
-}
-
-button:hover {
-    cursor: pointer;
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 input {
     width: 20%;
-    height: 5%;
+    height: 50px;
     margin-left: 40%;
     margin-right: 40%;
     text-align: center;
-    border-radius: 5px;
-    border: solid 1px grey;
-    box-shadow: 1px 1px 10px black;
-    margin-top: 5%;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    border-color: white;
 }
 
-.contain_code{
-    width: 100%;
-    padding-top: 10%;
-}
-
-.contain_code > div {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.9);
-    background-color: rgba(0, 0, 0, 0.8);
+div {
+    color: rgb(255, 255, 255);
+    opacity: 85%;
+    background-color: rgba(0, 0, 0, 0.719);
     width: 30%;
+    margin-top: 200px;
+    margin-bottom: 100px;
     margin-left: 35%;
     margin-right: 15%;
     height: 30%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    /* aligne sur les ordonnées */
     justify-content: center;
-    border-radius: 10px;
-    border-top: solid 4px white;
-    border-bottom: solid 4px white;
-    line-height: 150%;
-    font-size: 1.3vw;
-    font-weight: bold;
+    /* aligne sur les abscisses*/
+    font: small-caps bold 24px/1 sans-serif;
+    border-radius: 50px;
 }

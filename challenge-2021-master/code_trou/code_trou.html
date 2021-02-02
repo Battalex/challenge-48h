@@ -11,49 +11,49 @@
 </head>
 
 <body>
+    <h1 style="text-align:center; font-size: 200%;">Texte à trous </h1>
     <p><br></p>
     <div id="trou">
-        <h2>Compléter le texte à trous afin que le code fonctionne</h2>
+        <h2 style="text-align:center; font-size: 150%;">Compléter le code pour qu'il fonctionne </h2>
     </div>
-    <div class="contain_form">
-        <form name="form">
-            <div id="code">
-                <pre>
-                    def choix():
-                        choix = int(input("Choisissez un type for = 1 while = 2  : "));
-                        if (choix == 1):
-                            a=int(input("Entrez un entier(0 a 5000): "))
-                            if (a<=5001):
-                                facto_for(a);
-                        elif(choix == 2):
-                            a=int(input("Entrez un entier(0 a 5000) : "))
-                            if(a<=5001):
-                                facto_while(a);
-                        else :
-                            print ("Vous avez choisi une option non valable");
-                    def facto_for(a):
-                        res=1
-                        for i in range(2,a+1):
-                            res*=i
-                        print ("Le factoriel de " <input name="rep1" type=text size=15 maxlength=15></input> a <input name="rep2" type=text size=15 maxlength=15></input> " est : ",res)
+    <form name="form">
+        <div id="code">
+            <pre>
+        def choix():
+            choix = int(input("Choisissez un type for = 1 while = 2  : "));
+            if (choix == 1):
+                a=int(input("Entrez un entier(0 a 5000): "))
+                if (a<=5001):
+                    facto_for(a);
+            elif(choix == 2):
+                a=int(input("Entrez un entier(0 a 5000) : "))
+                if(a<=5001):
+                    facto_while(a);
+            else :
+                print ("Vous avez choisi une option non valable");
+        def facto_for(a):
+            res=1
+            for i in range(2,a+1):
+                res*=i
+            print ("La factorielle de " <input name="rep1" type=text size=15 maxlength=15></input> a <input name="rep2" type=text size=15 maxlength=15></input> "est : ",res)
 
-                    def <input name="rep3" type=text size=15 maxlength=15></input> :
-                        b=1
-                        res=1
-                        while (b <= a=):
-                            res=res*b
-                            b=b+1
-                        print("La factorielle de ",a," est : ",res);
-                        
-                        choix <input name="rep4" type=text size=15 maxlength=15></input> ;
-                        print("\n")
-                </pre>
-                <div class="button_valid">
-                    <input type=button id="bouton" value="Vérifier" onclick="verif()"></input>
-                </div>
+        def <input name="rep3" type=text size=15 maxlength=15></input>:
+            b=1
+            res=1
+            while (b <= a=):
+                res=res*b
+                b=b+1
+            print("La factorielle de ",a,"est : ",res);
+            
+            choix<input name="rep4" type=text size=15 maxlength=15></input>;
+            print("\n")
+    </pre>
+            <div align=right>
+                <input type=button id="bouton" value="Vérifier" onclick="verif()"></input>
             </div>
-        </form>
-    </div>
+        </div>
+
+    </form>
 </body>
 
 </html>
