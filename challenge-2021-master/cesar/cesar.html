@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chiffrement de César</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cesar.css">
+    <script src="cesar.js"></script>
+</head>
+
+<body>
+    <!-- Le reste du contenu -->
+    <div class="contain_card">
+        <div class="card">
+            <div>
+                <div class="card-body">
+                    <h5 class="card-title">A vos scripts</h5>
+                    <p class="card-text">Ecrivez le script de cesar en javascript. <br>Sachant que la variable "need2BeCrypted" contient le mot à crypter.</p>
+                    <div>
+                        <!--<input type="text" id="cesar" required size="100">-->
+                        <textarea id="cesar"></textarea>
+                        <button type="button" class="btn btn-outline-dark" value="Testing" onclick="takeInput()">Tester</button>
+                    </div>
+                </div>
+                <div class="contain_valid"><p type="text" id="Result" required minlength="4" maxlength="1000" size="230"></p></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

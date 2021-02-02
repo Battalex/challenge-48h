@@ -1,0 +1,44 @@
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #16161d;
+}
+
+.imgs{
+    width: 150px;
+}
+
+.letout{
+background-color: aliceblue;
+    width: 1500px;
+    max-width: 90%;
+    padding: 15px;
+}
+
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20%;
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: lightgrey;
+    border: 3px solid darkgrey;
+    color: black;
+}
+.btn:hover{
+    border: 3px solid black;
+}

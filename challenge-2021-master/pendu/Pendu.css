@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: #000;
+    font-family: "Exo 2", sans-serif;
+    background-image: url(../images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container,
+.game {
+    display: flex;
+}
+
+.game {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: #FFBAF4;
+}
+
+.intro {
+    flex: 0 1 auto;
+}
+
+.game {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 auto;
+    height: 100%;
+    width: 80vw;
+    color: #fff;
+    display: none;
+    margin-bottom: 2rem;
+}
+
+#canvas {
+    max-width: 400px;
+    max-height: 250px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    color: #fff;
+    font-size: 9rem;
+    font-weight: 400;
+    animation: glow 1.2s ease-in-out infinite alternate;
+}
+
+#ordi,
+#player,
+.boutoncreer {
+    position: relative;
+    outline: none;
+    width: 12rem;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    margin: 2rem;
+    background: none;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #ff1ead, 0 0 10px #ff1ead, 0 0 20px #ff1ead, 0 0 30px #ff1ead;
+}
+
+.flicker {
+    animation: flicker 2s ease infinite alternate;
+}
+
+#vies {
+    font-size: 2rem;
+    position: relative;
+}
+
+#liste_cat {
+    list-style-type: none;
+}
+
+#categories,
+#lettres,
+#creer {
+    color: #ff1ead;
+    font-size: 2rem;
+}
+
+#categories li,
+#lettres li,
+#creer li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+#liste_cat li:hover,
+#lettres li:hover {
+    color: #fff;
+}
+
+#lettres .clicked {
+    color: white;
+}
+
+#ajout-mot {
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 10px #ff1ead, 0 0 20px #ff1ead, 0 0 30px #ff1ead, 0 0 40px #ff1ead, 0 0 50px #ff1ead;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 25px #ff1ead, 0 0 35px #ff1ead, 0 0 45px #ff1ead, 0 0 55px #ff1ead, 0 0 65px #ff1ead;
+    }
+}
+
+@keyframes flicker {
+    0%,
+    15%,
+    17%,
+    20%,
+    22%,
+    74%,
+    76%,
+    100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 25px #ff1ead, 0 0 35px #ff1ead, 0 0 45px #ff1ead, 0 0 55px #ff1ead, 0 0 65px #ff1ead;
+    }
+    16%,
+    21%,
+    75% {
+        text-shadow: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .intro h1 {
+        font-size: 4rem;
+    }
+    #ordi,
+    #player,
+    .boutoncreer {
+        width: 8rem;
+        font-size: 1rem;
+    }
+    #categories li,
+    #creer li #lettres li,
+    #categories p,
+    #creer p {
+        font-size: 1.2rem;
+    }
+    #liste_cat li {
+        display: block;
+        padding: 0.5rem 1.2rem;
+    }
+    #vies {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+	<head>
+		<title>Horloge</title>
+        <link rel="stylesheet" type="text/css" href="css/horloge.css"/>
+	</head>
+
+<body>
+
+<div class="contain_end_challenge">
+    <div class="display_inline">
+        <div class="container_hour">
+            <div class="contain_hour">
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_1"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_1"></div>
+                        </div>
+                        <div class="hour_point hour_point_1"></div>
+                    </article>
+                </div>
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_2"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_2"></div>
+                        </div>
+                        <div class="hour_point hour_point_2"></div>
+                    </article>
+                </div>
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_3"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_3"></div>
+                        </div>
+                        <div class="hour_point hour_point_3"></div>
+                    </article>
+                </div>
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_4"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_4"></div>
+                        </div>
+                        <div class="hour_point hour_point_4"></div>
+                    </article>
+                </div>
+            </div>
+            <div class="contain_hour">
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_5"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_5"></div>
+                        </div>
+                        <div class="hour_point hour_point_5"></div>
+                    </article>
+                </div>
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_6"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_6"></div>
+                        </div>
+                        <div class="hour_point hour_point_6"></div>
+                    </article>
+                </div>
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_7"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_7"></div>
+                        </div>
+                        <div class="hour_point hour_point_7"></div>
+                    </article>
+                </div>
+                <div>
+                    <article class="clock">
+                        <div class="hours-container">
+                            <div class="hours hours_8"></div>
+                        </div>
+                        <div class="minutes-container">
+                            <div class="minutes min_8"></div>
+                        </div>
+                        <div class="hour_point hour_point_8"></div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text_hour_1">L'heure me regarde et je regarde l'heure</div>
+    <div class="text_hour_2">Parfois, une horloge ne donne pas que l'heure</div>
+    <div class="text_hour_3">Tous les indices ne sont pas bons à prendre</div>
+    <div class="text_hour_4">Si ma racine carrée n'existe pas, il faut me dédoubler</div>
+
+    <div class="contain_arrow_hour_1"><img src="img/arrow.png" alt="image arrow"/></div>
+    <div class="contain_arrow_hour_2"><img src="img/arrow.png" alt="image arrow"/></div>
+    <div class="contain_arrow_hour_3"><img src="img/arrow.png" alt="image arrow"/></div>
+    <div class="contain_arrow_hour_4"><img src="img/arrow.png" alt="image arrow"/></div>
+    <div class="contain_arrow_hour_5"><img src="img/arrow.png" alt="image arrow"/></div>
+
+    <div class="contain_hours_clue">
+        <div>0111 h 00011110</div>
+        <div>0010 h 00011110</div>
+        <div>1000 h 00101000</div>
+        <div>1011 h 00110010</div>
+    </div>
+
+    <div class="contain_info_hour"><img src="img/info.png" alt="image info" id="info_hour" name="info_hour"/></div>
+
+    <div class="contain_info_bubble diplay_none" id="info_bubble">Indice : commencez par déchiffrer la tableau des heures avec leur code binaire associé.</div>
+
+    <div class="contain_button_hour">
+        <div>
+            <input type="number" name="number_1" id="number_1"/>
+            <input type="number" name="number_2" id="number_2"/>
+            <input type="number" name="number_3" id="number_3"/>
+            <input type="number" name="number_4" id="number_4"/>
+        </div>
+        <div>
+            <button type="submit" name="valid_hour" id="valid_hour">Valider</button>
+        </div>
+    </div>
+</div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/horloge.js"></script>
+</body>
+</html>

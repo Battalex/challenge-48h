@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+	<head>
+		<title>Phrase</title>
+        <link rel="stylesheet" type="text/css" href="css/phrase.css"/>
+	</head>
+
+<body>
+
+<div class="contain_sentence_challenge">
+    <div>
+        <div class="contain_parchemin">
+            <div>
+                <div class="sentence_point sentence_point_1"></div>
+                <div class="sentence_point sentence_point_2"></div>
+                <div class="sentence_point sentence_point_3"></div>
+                <div class="sentence_point sentence_point_4"></div>
+                <div class="sentence_point sentence_point_5"></div>
+                <div class="sentence_point sentence_point_6"></div>
+                Personne pratiquant la divination. Il provient du verbe latin orare (parler), lui-même en rapport avec os, oris (bouche).
+                Il est avant tout l'expression de la divinité par l'intermédiaire d'un homme ou d'une femme, souvent préposés à cet effet.
+                Le terme est plus particulièrement employé en lien avec la divination antique, notamment la divination grecque et étrusque.
+                Dans la Rome antique, on parle également d'augure.
+            </div>
+        </div>
+
+        <div class="title_sentence">Le temps est compté</div>
+
+        <div class="contain_info_sentence"><img src="img/info.png" alt="image info" id="info_sentence" name="info_sentence"/></div>
+
+        <div class="contain_info_bubble diplay_none" id="info_bubble">Indice : e = 51.</div>
+
+        <div class="text_sentence">Vous cherchez autour de vous et trouvez un parchemin, à vous de le déchiffrer</div>
+
+        <div class="contain_sentence_response">
+            <div>Trouve le mot correspondant</div>
+            <table>
+                <tr>
+                    <td>21</td>
+                    <td>24</td>
+                    <td>28</td>
+                    <td>07</td>
+                    <td>18</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="letter_1" name="letter_1"></td>
+                    <td><input type="text" id="letter_2" name="letter_2"></td>
+                    <td><input type="text" id="letter_3" name="letter_3"></td>
+                    <td><input type="text" id="letter_4" name="letter_4"></td>
+                    <td><input type="text" id="letter_5" name="letter_5"></td>
+                    <td><input type="text" id="letter_6" name="letter_6"></td>
+                </tr>
+            </table>
+            <div><button id="valid_sentence" name="valid_sentence">Valider</button></div>
+        </div>
+    </div>
+</div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/phrase.js"></script>
+</body>
+</html>

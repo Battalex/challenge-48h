@@ -1,0 +1,51 @@
+div {
+    color: black;
+    opacity: 100%;
+    background-color: rgb(226, 179, 116);
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+body {
+    background-image: url("../images/bg6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px;
+}
+
+img {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 200px;
+}
+
+button {
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 50px;
+}
+
+input {
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.title {
+    border-radius: 50px;
+    font: small-caps bold 24px/1 sans-serif;
+}

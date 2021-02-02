@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+
+h1 {
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+h2 {
+    font: small-caps bold 24px/1 sans-serif;
+}
+
+#trou {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    padding: 40px;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#code {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 750px;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+#bouton {
+    width: 100px;
+    height: 30px;
+}

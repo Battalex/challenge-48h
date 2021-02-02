@@ -1,0 +1,30 @@
+html {
+    height: 100%
+}
+
+body {
+    background-image: url(../images/bg9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.card {
+    width: 50rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 1vh;
+    transform: translateY(10%);
+    text-align: center;
+}
+
+.btn {
+    margin-top: 30px;
+}
